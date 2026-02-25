@@ -1,13 +1,142 @@
+
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu Primeiro Site no GitHub Pages</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Restaurante Sabor Premium</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f5f5f5;
+}
+
+header {
+    background: url("https://images.unsplash.com/photo-1555396273-367ea4eb4db5");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+header h1 {
+    font-size: 40px;
+    margin: 0;
+}
+
+header p {
+    font-size: 18px;
+}
+
+.container {
+    padding: 20px;
+    max-width: 900px;
+    margin: auto;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.menu-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.botao {
+    display: block;
+    text-align: center;
+    background: #25d366;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.botao-ligar {
+    background: #e74c3c;
+}
+
+footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+</style>
 </head>
+
 <body>
-    <h1>Olá, mundo!</h1>
-    <p>Esse é o meu site criado com GitHub Pages. Funcionou! 🎉</p>
-    <p>Feito por joaopedro345 😄</p>
+
+<header>
+    <h1>🍽 Restaurante Sabor Premium</h1>
+    <p>Experiência gastronómica inesquecível</p>
+</header>
+
+<div class="container">
+
+<div class="card">
+<h2>📋 Menu</h2>
+
+<div class="menu-item">
+<span>Pizza Artesanal</span>
+<span>35€</span>
+</div>
+
+<div class="menu-item">
+<span>Hambúrguer Gourmet</span>
+<span>22€</span>
+</div>
+
+<div class="menu-item">
+<span>Massa Italiana</span>
+<span>28€</span>
+</div>
+
+<div class="menu-item">
+<span>Sobremesa Especial</span>
+<span>12€</span>
+</div>
+
+</div>
+
+<div class="card">
+<h2>📍 Localização</h2>
+<p>Rua Principal, 123</p>
+<p>Aberto todos os dias — 10h às 23h</p>
+</div>
+
+<div class="card">
+<h2>📞 Contato</h2>
+<p>Telefone: 99999-9999</p>
+
+<a class="botao" href="https://wa.me/5511999999999">
+💬 Pedir pelo WhatsApp
+</a>
+
+<a class="botao botao-ligar" href="tel:999999999">
+📞 Ligar Agora
+</a>
+
+</div>
+
+</div>
+
+<footer>
+© 2026 Restaurante Sabor Premium
+</footer>
+
 </body>
 </html>
